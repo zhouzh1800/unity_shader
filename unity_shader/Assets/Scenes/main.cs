@@ -7,6 +7,7 @@ public class main : MonoBehaviour
 {
     void OnGUI()
     {
+    	GUI.skin.button.fontSize = 100;
         if(GUILayout.Button("screen_border"))
         {
         	SceneManager.LoadScene("screen_border");
