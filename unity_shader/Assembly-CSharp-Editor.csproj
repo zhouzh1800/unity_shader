@@ -139,6 +139,7 @@
      <Compile Include="Assets\third_party\NGUI\Scripts\Editor\UIWidgetContainerEditor.cs" />
      <Compile Include="Assets\third_party\NGUI\Scripts\Editor\UIWidgetInspector.cs" />
      <Compile Include="Assets\third_party\NGUI\Scripts\Editor\UIWrapContentEditor.cs" />
+     <Compile Include="Assets\UnityChan\Editor\CreateLocatorHere.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>/Users/zhouyongcheng/my_data/work/unity_shader/unity_shader/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
