@@ -12,5 +12,9 @@ public class main : MonoBehaviour
         {
         	SceneManager.LoadScene("screen_border");
         }
+        else if(GUILayout.Button("edge_detect"))
+        {
+        	SceneManager.LoadScene("edge_detect");
+        }
     }
 }
