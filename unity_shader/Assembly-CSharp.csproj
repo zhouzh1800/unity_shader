@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scenes\edge_detect\edge_detect.cs" />
      <Compile Include="Assets\Scenes\main.cs" />
      <Compile Include="Assets\third_party\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
      <Compile Include="Assets\third_party\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
@@ -216,6 +217,7 @@
      <None Include="Assets\third_party\NGUI\Examples\Models\Orc\Orc Skin.shader" />
      <None Include="Assets\third_party\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
      <None Include="Assets\third_party\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+     <None Include="Assets\Scenes\edge_detect\edge_detect_sobel_depth.shader" />
      <None Include="Assets\third_party\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
      <None Include="Assets\third_party\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (TextureClip).shader" />
      <None Include="Assets\third_party\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (TextureClip).shader" />
@@ -247,6 +249,7 @@
      <None Include="Assets\UnityChan\Stage\Shader\AlphaMask.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
      <None Include="Assets\third_party\NGUI\Resources\Shaders\Unlit - Text.shader" />
+     <None Include="Assets\Scenes\edge_detect\edge_detect_LaplacianDepthNormal.shader" />
      <None Include="Assets\third_party\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
      <None Include="Assets\third_party\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
@@ -258,6 +261,7 @@
      <None Include="Assets\third_party\NGUI\Resources\Shaders\Unlit - Text (TextureClip).shader" />
      <None Include="Assets\third_party\NGUI\Examples\Shaders\Unlit - Depth.shader" />
      <None Include="Assets\third_party\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+     <None Include="Assets\Scenes\edge_detect\edge_detect_sobel_color.shader" />
      <None Include="Assets\third_party\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
      <None Include="Assets\third_party\NGUI\Examples\Resources\Localization.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">
