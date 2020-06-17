@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\JMO Assets\Toony Colors\Demo 2.0\TCF_Demo.cs" />
      <Compile Include="Assets\Scenes\edge_detect\edge_detect.cs" />
      <Compile Include="Assets\Scenes\main.cs" />
      <Compile Include="Assets\third_party\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
@@ -225,6 +226,7 @@
      <None Include="Assets\third_party\NGUI\Examples\Shaders\Unlit - Masked Colored.shader" />
      <None Include="Assets\third_party\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
      <None Include="Assets\third_party\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+     <None Include="Assets\Scenes\cartoon\custom_cartoon6.shader" />
      <None Include="Assets\third_party\NGUI\Resources\Shaders\Unlit - Transparent Colored (TextureClip).shader" />
      <None Include="Assets\third_party\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
      <None Include="Assets\Scenes\cartoon\custom_cartoon1.shader" />
@@ -235,6 +237,7 @@
      <None Include="Assets\third_party\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
      <None Include="Assets\third_party\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
      <None Include="Assets\third_party\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors\!ToonyColors Readme.txt" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
      <None Include="Assets\third_party\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
@@ -250,11 +253,14 @@
      <None Include="Assets\UnityChan\Stage\Shader\AlphaMask.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
      <None Include="Assets\Scenes\cartoon\custom_cartoon2.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors\Shaders 2.0\Rim Outline.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors\Shaders 2.0\Rim Lighting.shader" />
      <None Include="Assets\Scenes\cartoon\custom_cartoon4.shader" />
      <None Include="Assets\third_party\NGUI\Resources\Shaders\Unlit - Text.shader" />
      <None Include="Assets\Scenes\edge_detect\edge_detect_LaplacianDepthNormal.shader" />
      <None Include="Assets\third_party\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
      <None Include="Assets\third_party\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors\Shaders 2.0\Regular.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
      <None Include="Assets\Scenes\cartoon\custom_cartoon3.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
@@ -267,6 +273,7 @@
      <None Include="Assets\third_party\NGUI\Examples\Shaders\Unlit - Depth.shader" />
      <None Include="Assets\third_party\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
      <None Include="Assets\Scenes\edge_detect\edge_detect_sobel_color.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors\Shaders 2.0\Rim Alpha.shader" />
      <None Include="Assets\third_party\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
      <None Include="Assets\third_party\NGUI\Examples\Resources\Localization.txt" />
      <None Include="Assets\Scenes\cartoon\custom_cartoon5.shader" />
