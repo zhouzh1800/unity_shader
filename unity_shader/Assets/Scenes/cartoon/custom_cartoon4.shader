@@ -1,4 +1,4 @@
-﻿Shader "custom/cartoon/cartoon4" {
+﻿Shader "custom/cartoon/SurfaceAngleSilhouette" {
     Properties {
         _MainTex ("Base (RGB)", 2D) = "white" {}
         _Bump ("Bump", 2D) = "bump" {}

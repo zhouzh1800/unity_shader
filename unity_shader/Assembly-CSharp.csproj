@@ -226,10 +226,12 @@
      <None Include="Assets\third_party\NGUI\Examples\Shaders\Unlit - Masked Colored.shader" />
      <None Include="Assets\third_party\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
      <None Include="Assets\third_party\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+     <None Include="Assets\Scenes\cartoon\custom_cartoon9.shader" />
      <None Include="Assets\Scenes\cartoon\custom_cartoon6.shader" />
      <None Include="Assets\third_party\NGUI\Resources\Shaders\Unlit - Transparent Colored (TextureClip).shader" />
      <None Include="Assets\third_party\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
      <None Include="Assets\Scenes\cartoon\custom_cartoon1.shader" />
+     <None Include="Assets\Scenes\cartoon\custom_cartoon7.shader" />
      <None Include="Assets\UnityChan\Voice\unity-chan_voice_list.txt" />
      <None Include="Assets\third_party\NGUI\Resources\Shaders\Unlit - Transparent Masked 3.shader" />
      <None Include="Assets\Scenes\screen_border\custom-screen-border.shader" />
@@ -248,6 +250,7 @@
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
      <None Include="Assets\third_party\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
      <None Include="Assets\third_party\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+     <None Include="Assets\Scenes\cartoon\custom_cartoon8.shader" />
      <None Include="Assets\third_party\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
      <None Include="Assets\Scenes\gamma\tex.shader" />
@@ -260,6 +263,7 @@
      <None Include="Assets\Scenes\cartoon\custom_cartoon4.shader" />
      <None Include="Assets\third_party\NGUI\Resources\Shaders\Unlit - Text.shader" />
      <None Include="Assets\Scenes\edge_detect\edge_detect_LaplacianDepthNormal.shader" />
+     <None Include="Assets\Scenes\fragment_vertex_w\vertex_w.shader" />
      <None Include="Assets\third_party\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
      <None Include="Assets\third_party\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
      <None Include="Assets\JMO Assets\Toony Colors\Shaders 2.0\Regular.shader" />

@@ -47,7 +47,7 @@
             fixed4 frag (v2f i) : SV_Target
             {
                 float x = ddx(i.vertex.x) + ddy(i.vertex.y);
-                x *= 0.5;
+                x *= 0.2;
                 return fixed4(x, x, x, 1);
             }
             ENDCG

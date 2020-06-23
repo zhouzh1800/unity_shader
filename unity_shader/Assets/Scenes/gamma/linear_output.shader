@@ -47,7 +47,7 @@
             fixed4 frag (v2f i) : SV_Target
             {
                 float x = i.uv.x;
-                //x = pow(x, 1.5);
+                x = pow(x, 1/2.2);
                 return pow(fixed4(x, x, x, 1), 1);
             }
             ENDCG

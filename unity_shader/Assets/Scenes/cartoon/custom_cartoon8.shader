@@ -1,6 +1,6 @@
 ﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
-Shader "custom/cartoon/extendVertexByViewSpaceNormal" {
+Shader "custom/cartoon/zbais" {
     Properties {
         _MainTex ("Base (RGB)", 2D) = "white" {}
         _Bump ("Bump", 2D) = "bump" {}
@@ -137,12 +137,9 @@ Shader "custom/cartoon/extendVertexByViewSpaceNormal" {
                 v2f o;
                 
                 float4 pos = mul( UNITY_MATRIX_MV, v.vertex); 
-                float3 normal = mul( (float3x3)UNITY_MATRIX_IT_MV, v.normal);  
-                normal.z = -0.5;
-                //normal.z = -0;
-                pos = pos + float4(normalize(normal),0) * _Outline;
+                //pos.z += 0.02;
                 o.pos = mul(UNITY_MATRIX_P, pos);
-                
+                o.pos.z += 0.001;
                 return o;
             }
  

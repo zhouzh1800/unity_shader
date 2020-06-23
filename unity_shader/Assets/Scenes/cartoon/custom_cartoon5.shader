@@ -1,4 +1,4 @@
-﻿Shader "custom/cartoon/cartoon5" {
+﻿Shader "custom/cartoon/extendVertexByObjectSpaceNormal" {
     Properties {
         _MainTex ("Base (RGB)", 2D) = "white" {}
         _Bump ("Bump", 2D) = "bump" {}
