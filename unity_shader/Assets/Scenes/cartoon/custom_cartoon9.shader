@@ -143,8 +143,10 @@ Shader "custom/cartoon/extendVertexByProjectionSpaceNormal" {
                 float3 dir = normalize(v.vertex.xyz);
                 //dir = mul((float3x3)UNITY_MATRIX_IT_MV, dir);
                 dir = mul ((float3x3)UNITY_MATRIX_IT_MV, v.normal);
+                dir.z = 0;
+                dir = normalize(dir);
                 float2 offset = TransformViewToProjection(dir.xy);
-                offset = normalize(offset);
+                
                 
 
                 //有一些情况下，侧边看不到，所以把方式一和二的算法相结合
@@ -160,8 +162,8 @@ Shader "custom/cartoon/extendVertexByProjectionSpaceNormal" {
                 
 
                 //在xy两个方向上偏移顶点的位置
-                o.pos.xy += offset * o.pos.z * _Outline;
-                //o.pos.xy += offset * o.pos.w * _Outline;
+                //o.pos.xy += offset * o.pos.z * _Outline;
+                o.pos.xy += offset * o.pos.w * _Outline;
                 //o.pos.xy += offset * _Outline;
 
                 return o;

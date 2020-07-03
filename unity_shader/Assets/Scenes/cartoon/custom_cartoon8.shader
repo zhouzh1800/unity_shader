@@ -139,7 +139,7 @@ Shader "custom/cartoon/zbais" {
                 float4 pos = mul( UNITY_MATRIX_MV, v.vertex); 
                 //pos.z += 0.02;
                 o.pos = mul(UNITY_MATRIX_P, pos);
-                o.pos.z += 0.001;
+                o.pos.z += 0.0002 * o.pos.w;
                 return o;
             }
  
